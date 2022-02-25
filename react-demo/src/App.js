@@ -8,5 +8,5 @@ const App = () => {
         </div>
     );
 };
-
+//xong chuc nang 1
 export default App;
