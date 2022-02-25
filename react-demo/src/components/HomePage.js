@@ -10,7 +10,7 @@ const HomePage = () => {
     const dispatch = useDispatch()
 
     const user = useSelector(state => state.user.users)
-    console.log("🙉🍀  user", user)
+
 
     const hanldeAddhobby = () => {
         const Newhobby = {
@@ -32,7 +32,7 @@ const HomePage = () => {
         <div style={{display:'flex'}}>
             <div >
                 <button onClick={hanldeAddhobby}>
-                    Add hobby
+                    Add hobby(Them su thich cua ban)
                 </button>
 
                 <HobbyList List={hobbyList}
