@@ -9,4 +9,7 @@ const App = () => {
     );
 };
 //xong chuc nang 1
+//xong chuc nang 2
+//sua chuc nang 2
+//fdfd
 export default App;
