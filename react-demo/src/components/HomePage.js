@@ -32,7 +32,7 @@ const HomePage = () => {
         <div style={{display:'flex'}}>
             <div >
                 <button onClick={hanldeAddhobby}>
-                    Add hobby
+                    Add hobby(Toi cung sua lai la chuc nang moi New Nhung)
                 </button>
 
                 <HobbyList List={hobbyList}
